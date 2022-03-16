@@ -24,6 +24,6 @@
 ## To kill the process execute
 	> pkill kubectl
 
-##To create a PostgreSQL in the cluster run the following
+## To create a PostgreSQL in the cluster run the following
 	> kubectl apply -f postgres-secrets.yml
 	> kubectl apply -f db-deployment.yaml
